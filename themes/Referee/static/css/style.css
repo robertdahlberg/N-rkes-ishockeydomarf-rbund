@@ -1,0 +1,20 @@
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    height: 100vh;
+}
+footer {
+    padding: 30px 0;
+}
+
+.wrapper {
+    height: 100%;
+    background-image:
+    radial-gradient(circle, rgba(251, 251, 251, 0.52), rgba(0, 0, 0, 0.73)),url(https://res.cloudinary.com/dfvkxoqhn/image/upload/v1564066781/4187619589_3a414e9219_o_6438856941_o_ri9w3u.jpg);
+}
+
+#Tagline {
+    font-size: xx-large;
+}

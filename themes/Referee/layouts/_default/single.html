@@ -1,0 +1,46 @@
+{{ partial "head.html" . }}
+
+{{ partial "nav.html" . }}
+
+{{ if eq .Params.Type "other" }}
+<div class="row align-items-center h-100">
+  <div class="col-12 col-md-6 mx-auto">
+    <div class="jumbotron" style="background-color: inherit;">
+      <h1 id="title" style="text-align:center;">{{ .Title }} <i class="far fa-smile"></i></h1>
+      <hr>
+      <p id="description">{{ .Content }}</p>
+    </div>
+  </div>
+</div>
+
+{{ else }}
+
+<section class="container">
+  </br>
+  <section class="content">
+    <div class="jumbotron">
+      <h1 class="display-4">{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
+      {{if gt (len .Description) 40}}
+      <p class="lead">{{ .Description }}</p>
+      {{ end }}
+      <hr class="my-4">
+      {{ if (in .Permalink "/kontakt/") }}
+      <p>Uppdaterat: {{ .Date.Day }}
+        {{ index $.Site.Data.månader (printf "%d" .Date.Month) }} {{ .Date.Year }}</p>
+      {{ if .Params.Author }}
+      <p>Av: {{ .Params.Author }}</p>
+      {{ end }}
+      {{ $readTime := cond (gt .ReadingTime 1) "minuter" "minut" }}
+      <p>Lästid: {{ .ReadingTime }} {{ $readTime }}</p>
+      {{ end }}
+    </div>
+    <div class="entry-content">
+      {{ .Content }}
+    </div>
+  </section>
+  </br>
+</section>
+
+{{ partial "footer.html" . }}
+
+{{ end }}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="se">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {{ if .IsHome }}
+    <title>{{ .Site.Params.Title }}</title>
+    <meta name="title" content="{{ .Site.Params.Title }}">
+    <meta name="description" content="{{ .Site.Params.Description }}">
+    <meta name='date' content='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+    <meta name='revised' content='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+    <meta name="language" content="SE">
+    {{ else }}
+    <title>{{ .Title }} - {{ .Site.Params.Title }}</title>
+    <meta name="title" content="{{ .Title }} - {{ .Site.Params.Title }}">
+    <meta name="description" content="{{ .Description }}">
+    <meta name="author" content="{{ .Site.Params.Name }}">
+    <meta name='date' content='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+    <meta name='revised' content='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+    <meta name="language" content="SE">
+    {{ end }}
+    <meta name="robots" content="index,follow" />
+    <meta name="reply-to" content="{{ .Site.Params.Email }}">
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="{{ .Site.Params.Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://robertdahlberg.se/" />
+    <meta property="og:image" content="{{ .Site.Params.Picture }}" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/981e77006b.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114973337-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114973337-1');
+    </script>
+
+
+</head>
+
+<body>

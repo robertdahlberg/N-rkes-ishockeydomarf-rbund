@@ -1,0 +1,14 @@
+baseURL = "/"
+languageCode = "se-SE"
+title = "Närkes ishockeydomarklubb"
+theme = "Referee"
+DefaultContentLanguage = "se"
+
+[params]
+Title = "Närkes ishockeydomarklubb"
+Description = "Närkes ishockeydomarklubb fungerar som en intresseförening för oss domare i örebro län"
+Picture = "https://res.cloudinary.com/dfvkxoqhn/image/upload/c_scale,w_300/v1564059533/42340587_246257366086486_1028533840055894016_n_invauj.png"
+LogoSmall = "https://res.cloudinary.com/dfvkxoqhn/image/upload/c_scale,f_auto,q_auto,w_80/v1564059533/42340587_246257366086486_1028533840055894016_n_invauj.png"
+Name = "NIDK"
+Tagline = "En intresseförening för oss domare"
+Facebook = "https://www.facebook.com/groups/106788255072/"
