@@ -1,7 +1,7 @@
 +++
 title = "Tack för ditt mail!"
 description = "Tack för ditt mail"
-date = "2017-07-25"
+date = "2019-01-01"
 type = "other"
 +++
 

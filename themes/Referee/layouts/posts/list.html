@@ -1,0 +1,41 @@
+{{ partial "head.html" . }} {{ partial "nav.html" . }}
+
+</br>
+<div class="container">
+    <main>
+        <article>
+            <header>
+                <div class="jumbotron">
+                    <h1 class="display-4">Nyheter</h1>
+                    <hr class="my-4">
+                    <p class="lead">Här kan du se nyheter i klubben eller i domarvärlden</p>
+                </div>
+            </header>
+            {{.Content}}
+        </article>
+        </br>
+        <div class="card-columns">
+            {{ range .Pages }} {{ if eq .Type "post" }}
+            <div class="card">
+                {{if .Params.img }}
+                <img class="card-img-top" src="{{ .Params.img }}" alt="Card image cap"> {{ end }}
+                <div class="card-body">
+                    <a href="{{ .Permalink }}">
+                        <h5 class="card-title">{{ .Title }}</h5>
+                    </a>
+                    <p class="card-text">{{ .Description }}</p>
+                    <p class="card-text"><small class="text-muted">Av: {{ .Params.Author }}
+                            ,
+                            {{ .Date.Day }}
+                            {{ index $.Site.Data.månader (printf "%d" .Date.Month) }} {{ .Date.Year }}</small>
+                    </p>
+                </div>
+            </div>
+            {{ end }} {{ end }}
+        </div>
+    </main>
+</div>
+
+</br>
+
+{{ partial "footer.html" . }}

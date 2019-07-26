@@ -1,0 +1,29 @@
+<div class="container-fluid" id="news">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <h2 id="#nyheter" class="sectiontitle">Senaste inläggen</h2>
+            <div class="card-deck">
+                {{ range first 3 .Pages.ByDate.Reverse }}
+                <div class="card">
+                    {{ if .Params.img }}
+                    <img class="card-img-top" src="{{ .Params.img }}" />
+                    {{ else }}
+                    <img class="card-img"
+                        src="https://sportbloggare.com/assets/local/_753x400_crop_center-center/BB160219BB970.jpg" />
+                    {{ end }}
+                    <div class="card-body">
+                        <a href="{{ .Permalink }}">
+                            <h5 class="card-title">{{ .Title }}</h5>
+                        </a>
+                        <p class="card-text">{{ .Description }}</p>
+                        <p class="card-text"><small class="text-muted"><time>{{ .Date.Day }}
+                                    {{ index $.Site.Data.månader (printf "%d" .Date.Month) }}
+                                    {{ .Date.Year }}</time></small>
+                        </p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
