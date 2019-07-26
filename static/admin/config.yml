@@ -21,7 +21,6 @@ collections:
       - {label: "Beskrivning", name: "description", widget: "string"}
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Bild", name: "img", widget: "image"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -35,6 +34,5 @@ collections:
       - {label: "Beskrivning", name: "description", widget: "string"}
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Bild", name: "img", widget: "image"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
