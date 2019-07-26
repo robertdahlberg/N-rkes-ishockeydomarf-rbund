@@ -22,7 +22,6 @@ collections:
       - {label: "Bild", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-collections:
   - name: "utbildning" # Used in routes, e.g., /admin/collections/blog
     label: "Utbildning" # Used in the UI
     folder: "_posts/utbildning" # The path to the folder where the documents are stored
