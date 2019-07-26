@@ -18,8 +18,11 @@ collections:
     identifier_field: title
     fields: # The fields for each document, usually in front matter
       - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Beskrivning", name: "description", widget: "string"}
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Bild", name: "img", widget: "image"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "utbildning" # Used in routes, e.g., /admin/collections/blog
@@ -29,6 +32,9 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Beskrivning", name: "description", widget: "string"}
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Bild", name: "img", widget: "image"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
