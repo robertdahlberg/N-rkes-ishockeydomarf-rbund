@@ -5,7 +5,7 @@ description = ""
 date = "2019-07-23"
 slug = ""
 author = "Robert Dahlberg"
-type = "post"
+type = "single"
 +++
 
 Mer info kommer snart

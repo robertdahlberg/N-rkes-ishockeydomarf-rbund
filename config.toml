@@ -7,9 +7,25 @@ DefaultContentLanguage = "se"
 [params]
 Title = "Närkes ishockeydomarklubb"
 ShortTitle = "NIDK"
-Description = "Närkes ishockeydomarklubb fungerar som en intresseförening för oss domare i örebro län"
+Description = "Närkes ishockeydomarklubb fungerar som en intresseförening för domare i örebro län"
 Picture = "https://res.cloudinary.com/dfvkxoqhn/image/upload/c_scale,w_300/v1564059533/42340587_246257366086486_1028533840055894016_n_invauj.png"
 LogoSmall = "https://res.cloudinary.com/dfvkxoqhn/image/upload/c_scale,f_auto,q_auto,w_80/v1564059533/42340587_246257366086486_1028533840055894016_n_invauj.png"
 Name = "NIDK"
-Tagline = "En intresseförening för oss domare i Örebro län"
+Tagline = "En intresseförening för domare i Örebro län"
+FallbackImg = "https://res.cloudinary.com/dfvkxoqhn/image/upload/v1564066781/4187619589_3a414e9219_o_6438856941_o_ri9w3u.jpg"
 Facebook = "https://www.facebook.com/groups/106788255072/"
+
+[related]
+    treshold = 1
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "CurrentSection.Title"
+        weight = 75
+    [[related.indices]]
+        name = "Section.Title"
+        weight = 50
+    [[related.indices]]
+        name = "description"
+        weight = 25

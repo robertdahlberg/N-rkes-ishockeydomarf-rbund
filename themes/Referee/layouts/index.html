@@ -1,9 +1,11 @@
-{{ partial "head.html" . }} {{ partial "nav.html" . }}
+{{ partial "head.html" . }}
+
+{{ partial "nav.html" . }}
 
 <div class="wrapper">
     <header class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
-            <div class="col-lg-10 align-self-end">
+            <div class="col-lg-10 align-self-end" style="padding-top: 1em;">
                 <img src="{{ .Site.Params.Picture }}" />
                 <h1 id="title" class="text-uppercase text-white font-weight-bold">{{ .Site.Params.Title }}
                 </h1>
@@ -12,12 +14,11 @@
             <div class="col-lg-8 align-self-baseline">
                 <p class="text-white-75 font-weight-light mb-5" id="Tagline">{{ .Site.Params.Tagline }}</p>
             </div>
+            <div class="col-lg-8 align-self-baseline">
+                <a class="btn btn-warning" href="/bli-medlem/">Bli Medlem</a>
+            </div>
         </div>
     </header>
 </div>
-
-{{ partial "topnews.html" . }}
-
-{{ partial "contact.html" . }}
 
 {{ partial "footer.html" . }}

@@ -2,7 +2,7 @@
 title = "Tack för ditt mail!"
 description = "Tack för ditt mail"
 date = "2019-01-01"
-type = "other"
+type = "single"
 +++
 
 Jag återkommer så fort jag kan.
