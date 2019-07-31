@@ -24,8 +24,8 @@ collections:
       - {label: "Type", name: "type", widget: "string", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "utbildning" # Used in routes, e.g., /admin/collections/blog
-    label: "Utbildning" # Used in the UI
+  - name: "dokument" # Used in routes, e.g., /admin/collections/blog
+    label: "Dokument" # Used in the UI
     folder: "content/dokument" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
