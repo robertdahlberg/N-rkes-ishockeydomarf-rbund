@@ -19,6 +19,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Beskrivning", name: "description", widget: "string"}
+      - {label: "Författare", name: "author", widget: "string"}
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Bild", name: "img", widget: "image"}
       - {label: "Type", name: "type", widget: "string", default: "post"}
@@ -32,6 +33,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Beskrivning", name: "description", widget: "string"}
+      - {label: "Författare", name: "author", widget: "string"}
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Bild", name: "img", widget: "image"}
       - {label: "Type", name: "type", widget: "string", default: "post"}
