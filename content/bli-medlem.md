@@ -10,7 +10,7 @@ type = "single"
 
 <div class="container">
     <div class="contactform">
-        <form name="contact" method="POST" data-netlify="true" action="/tack/">
+        <form name="bli-medlem" method="POST" data-netlify="true" action="/tack/">
             <label>Namn: <input style="width: 100%;" type="text" name="name" class="form-control" /></label>
             <label>Email: <input type="email" name="email" class="form-control" /></label>
             <label>Telefonnummer: <input type="tel" name="subject" class="form-control" /></label>
