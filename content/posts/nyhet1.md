@@ -1,6 +1,6 @@
 ---
 title: Information ifrån Jonathan Rödin genom styrelsen Närkes Ishockeydomarklubb
-description: Detta är en beskrivning på ett inlägg
+description: Information om vad som pågår i klubben just nu
 author: Jonathan Rödin
 date: 2019-10-12T22:00:00.000Z
 img: /images/uploads/42340587_246257366086486_1028533840055894016_n.png
