@@ -1,10 +1,10 @@
 +++
-title = "Tack för ditt mail!"
+title = "Tack!"
 description = "Tack för ditt mail"
 date = "2019-01-01"
 type = "single"
 +++
 
-Jag återkommer så fort jag kan.
+NIDK återkommer så snabbt vi kan! 
 
 <a href="/"><i class="fas fa-arrow-left"></i> Tillbaka</a>
