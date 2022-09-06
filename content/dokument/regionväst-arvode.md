@@ -7,4 +7,4 @@ slug: ""
 author: Robert Dahlberg
 type: post
 ---
-Ladda ner eller läs direkt i din telefon/dator [här](https://www.swehockey.se/globalassets/region-vast/domare/domararvoden-region-vast--2020-2022.pdf)
+Ladda ner eller läs direkt i din telefon/dator [här](https://www.swehockey.se/globalassets/region-vast/dokument/domararvoden-region-vast--2022-2024.pdf)
