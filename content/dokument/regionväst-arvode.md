@@ -1,7 +1,7 @@
 ---
 title: Domararvoden Distriktsdomare 2022-2023
 description: Domararvoden för u16/u15 och uppåt
-date: 2021-12-13T13:26:10.401Z
+date: 2022-09-06T14:30:31.585Z
 img: https://res.cloudinary.com/dfvkxoqhn/image/upload/v1564178099/sif_logotyp_nyhet_800_mrt9ip.jpg
 slug: ""
 author: Robert Dahlberg
