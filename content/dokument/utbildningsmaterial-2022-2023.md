@@ -12,7 +12,7 @@ type: post
 
 [3.1 - Hybridicing](https://www.icloud.com/iclouddrive/0ebUQ7VFaxkbvgVHAvw5hequQ#3.1_-_Hybridicing)
 
-[3.1 - Regelgenomgång Ungdomsdomare 2223](https://www.icloud.com/iclouddrive/0e6rB1FKUJoPWfkRS43hGjVow)
+[3.1 - Regelgenomgång Ungdomsdomare 22/23](https://www.icloud.com/iclouddrive/0e6rB1FKUJoPWfkRS43hGjVow)
 
 [3.2 - Offside](https://www.icloud.com/iclouddrive/0f7PYm2BCAAAuYyYVoD8yPu4A#3.2_-_Offside)
 
