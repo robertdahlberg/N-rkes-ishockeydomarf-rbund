@@ -7,4 +7,4 @@ slug: ""
 author: NIDK
 type: post
 ---
-Ladda ner eller läs direkt i din telefon/dator [här](https://www.swehockey.se/globalassets/region-vast/dokument/domararvoden-region-vast--2022-2024.pdf)
+Läs direkt i din telefon/dator här: [](https://www.swehockey.se/globalassets/region-vast/dokument/domararvoden-region-vast--2022-2024.pdf)<https://www.swehockey.se/region-vaest/domare/arvoden-och-ersaettningar-region-vaest/>
